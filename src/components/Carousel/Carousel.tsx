@@ -13,8 +13,6 @@ import React from 'react';
 import { ArrowLeftIcon } from '../icons/ArrowLeft/ArrowLeft';
 import { ArrowRightIcon } from '../icons/ArrowRight/ArrowRight';
 
-/* Install pure-react-carousel using -> npm i pure-react-carousel */
-
 type Props = {
   children: React.ReactNode[];
 };
