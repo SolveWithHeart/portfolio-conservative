@@ -1,0 +1,22 @@
+.bannerWrapper {
+  position: relative;
+  height: calc(100vh - var(--header-height));
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  object-fit: contain;
+}
+
+.titles {
+  font-family: var(--legacy-style-font);
+}
+
+.title {
+    font-size: var(--h1-size);
+  }
+
+  .subtitle {
+    font-size: var(--h6-size);
+  }

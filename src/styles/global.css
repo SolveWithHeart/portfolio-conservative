@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
 @tailwind base;
+
+:root {
+  --brand-color: #eec344;
+  --bg-grey-0: #fafafa;
+
+  --header-height: 100px;
+  --legacy-style-font: 'Cormorant Garamond', serif;
+
+  --h1-size: 4rem;
+  --h3-size: 3rem;
+  --h5-size: 2rem;
+  --h6-size: 1.5rem;
+
+  --space-4: 0.4rem;
+    --space-8: 0.8rem;
+    --space-16: 1.6rem;
+    --space-24: 2.4rem;
+}
+
+.title {
+  font-family: var(--legacy-style-font);
+  font-size: var(--h3-size);
+}
 
 a {
   @apply text-blue-700;
@@ -11,10 +36,6 @@ a:hover {
 @tailwind components;
 
 @tailwind utilities;
-
-.content p {
-  @apply my-6;
-}
 
 .content ul {
   @apply my-6;
